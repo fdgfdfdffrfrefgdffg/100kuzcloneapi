@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-+y4cb9brlxj9l8*f+qt+5n9jb*2dqm+dzm!!3iu7x6&i=igaw4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'corsheaders',
     "posts",
     "images",
-    "categories"
+    "categories",
+    "drf_yasg"
 ]
 
 MIDDLEWARE = [
