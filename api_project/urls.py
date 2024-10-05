@@ -25,6 +25,7 @@ urlpatterns = [
     path("posts/", include("posts.urls")),
     path("images/", include("images.urls")),
     path("categories/", include("categories.urls")),
+    path("accesses/", include("accesses.urls"))
 ]
 
 
